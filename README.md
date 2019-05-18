@@ -1,4 +1,6 @@
 # efbwechat
+[![](https://images.microbadger.com/badges/image/fourstring/efbwechat.svg)](https://microbadger.com/images/fourstring/efbwechat "Get your own image badge on microbadger.com")
+[![](https://images.microbadger.com/badges/version/fourstring/efbwechat.svg)](https://microbadger.com/images/fourstring/efbwechat "Get your own version badge on microbadger.com")
 Forward messages from WeChat to Telegram with this Docker image.
 
 # How to use
