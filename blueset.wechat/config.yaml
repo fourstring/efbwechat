@@ -1,0 +1,3 @@
+flags:
+  on_log_out: "reauth"
+  delete_on_edit: true

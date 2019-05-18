@@ -1,0 +1,9 @@
+urllib3==1.25.2
+requests==2.22.0
+python-telegram-bot==10.1.0
+ehforwarderbot==2.0.0b15
+efb-telegram-master==2.0.0b20
+efb-wechat-slave==2.0.0a18
+pillow
+peewee
+pyyaml
