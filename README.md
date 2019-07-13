@@ -16,11 +16,6 @@ cd efbwechat
 docker build -f Dockerfile.dockerfile -t wechat .
 ```
 
-Or from DockerHub:
-```bash
-docker pull fourstring/efbwechat
-```
-
 And start a container:
 ```
 docker run -d --name wechat wechat
