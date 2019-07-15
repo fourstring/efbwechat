@@ -1,0 +1,9 @@
+version: "3"
+services: 
+  efbwechat:
+    container_name: efbwechat
+    image: fourstring/efb_wechat_base
+    volumes:
+      - type: bind
+        source: ./efbwechat_configs
+        target: /root/.ehforwarderbot/profiles/default
