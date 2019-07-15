@@ -21,3 +21,7 @@ cd efbwechat-master
 docker-compose up -d
 docker-compose logs
 ```
+
+# Acknowledgement
+* Authors of all upstream projects used in this image.
+* Friends from [EFB Support Group](https://t.me/joinchat/FLrhEECb6bgWdDTFyd6Suw), they find the right combination of upstream packages so that we can send and receive files whose names are in Chinese after retrying for plenty of times.
