@@ -4,7 +4,13 @@
 
 Forward messages between WeChat and Telegram with this Docker image.
 
+# Features
+* Send stickers you like to your WeChat contacts, those stickers will be converted into JPEG.
+* Send and receive files with Chinese filename in Telegram by using appropirate version of upstream packages.
+* All configurations are stored under `efbwechat_configs` directory and you can modified it without rebuilding the whole image or typing long long command with the help of docker-compose.
+
 # How to use
+0. Install docker and docker-compose.
 1. Clone files.
 2. Edit Telegram Master Channel Configuration `efbwechat_configs/blueset.telegram/config.yaml`, replace contents with your own `Bot API Key` and `Telegram User ID`.
 3. Start service using docker-compose.  
