@@ -10,8 +10,8 @@ Forward messages between WeChat and Telegram with this Docker image.
 3. Start service using docker-compose.  
 
 ```bash
-git clone https://github.com/fourstring/efbwechat
-cd efbwechat
+wget https://github.com/fourstring/efbwechat/archive/master.zip && unzip master.zip
+cd efbwechat-master
 docker-compose up -d
 docker-compose logs
 ```
