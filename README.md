@@ -7,7 +7,7 @@ Forward messages between WeChat and Telegram with this Docker image.
 # Features
 * Send stickers you like to your WeChat contacts, those stickers will be converted into JPEG.
 * Send and receive files with Chinese filename in Telegram by using appropirate version of upstream packages.
-* All configurations are stored under `efbwechat_configs` directory and you can modified it without rebuilding the whole image or typing long long command with the help of docker-compose.
+* All configurations are stored under `efbwechat_configs` directory and can be modified without rebuilding the whole image or typing long long command with the help of docker-compose.
 
 # How to use
 0. Install docker and docker-compose.
